@@ -19,6 +19,7 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
+    "controlFlow": true,
     "typeCheckHostBindings": true,
     "strictTemplates": true
   },

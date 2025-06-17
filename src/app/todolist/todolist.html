@@ -1,0 +1,22 @@
+<div class="todo-list">
+  <div class="container">
+    <h1>To-Do App!</h1>
+    <p>Add New To-Do</p>
+    <div class="todo-form">
+      <ul>
+        @for (task of tasks; track task.id) {
+          <li>
+            <span
+              [style.text-decoration]="task.completed ? 'line-through' : 'none'"
+              (click)="toggle(task.id)">
+              {{ task.text }}
+            </span>
+            <button class="rounded shadow" (click)="delete(task.id)">Delete</button>
+          </li>
+        }
+      </ul>
+    </div>
+  </div>
+</div>
+
+  
