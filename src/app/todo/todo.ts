@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { TodoForm } from '../todo-form/todo-form';
 import { Todolist } from '../todolist/todolist';
-interface Todoarr {
+export interface Todoarr {
   id: number;
   text: string;
   completed: boolean;

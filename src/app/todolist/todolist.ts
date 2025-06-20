@@ -16,5 +16,4 @@ export class Todolist {
   toggle(id: number) {
     this.toggleDone.emit(id);
   }
-
 }
